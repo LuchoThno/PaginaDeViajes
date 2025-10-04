@@ -1,10 +1,7 @@
 {
-  "name": "PaginaDeViaje",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "homepage": "https://luchothno.github.io/PaginaDeViajes",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "private": true
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
 }
