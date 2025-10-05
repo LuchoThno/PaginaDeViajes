@@ -1,0 +1,7 @@
+{
+  "homepage": "https://luchothno.github.io/PaginaDeViajes",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
